@@ -1,0 +1,19 @@
+# Documentation
+# * mdbook   https://rust-lang.github.io/mdBook/
+
+[book]
+authors             = ["Aleci Matey"]
+language            = "en"
+multilingual        = false
+src                 = "src"
+title               = "Silicon's Blog"
+
+[output.html]
+additional-css      = [ "section-lines.css" , "version-commit.css" ]
+curly-quotes        = false
+git-repository-url  = "https://github.com/AleciMatey/AleciMatey.github.io"
+no-section-label    = true
+
+[preprocessor.version-commit]
+renderers           = [ "html" ]
+command             = "./version-commit"

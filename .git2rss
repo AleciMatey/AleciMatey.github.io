@@ -1,0 +1,7 @@
+title       = Silicon's Blog
+link        = https://github.com/AleciMatey/AleciMatey.github.io
+description = Blog buit by Silicon
+image_url   = ""
+show_email  = user
+commit_url  = https://github.com/AleciMatey/AleciMatey.github.io/commit/%s
+limit       = 0
