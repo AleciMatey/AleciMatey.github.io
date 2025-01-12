@@ -14,5 +14,5 @@ curly-quotes        = false
 git-repository-url  = "https://github.com/AleciMatey/AleciMatey.github.io"
 no-section-label    = true
 
-[preprocessor.version-commit]
-version = "latest"
+[preprocessor]
+version-commit = false
