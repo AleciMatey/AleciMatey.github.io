@@ -6,13 +6,37 @@ authors             = ["Aleci Matey"]
 language            = "en"
 multilingual        = false
 src                 = "src"
-title               = "Silicon's Blog"
+title               = "AleciMatey's Blog"
 
 [output.html]
-additional-css      = [ "section-lines.css" , "version-commit.css" ]
-curly-quotes        = false
-git-repository-url  = "https://github.com/AleciMatey/AleciMatey.github.io"
-no-section-label    = true
+smart-punctuation = true
+mathjax-support = true
+git-repository-url = "https://github.com/AleciMatey/AleciMatey.github.io/tree/master/books"
+edit-url-template = "https://github.com/AleciMatey/AleciMatey.github.io/edit/master/books/{path}"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
-[preprocessor]
-version-commit = false
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.playground]
+editable = true
+copyable = true
+copy-js = true
+line-numbers = true
+runnable = true
+
+[output.html.code.hidelines]
+python = "~"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"

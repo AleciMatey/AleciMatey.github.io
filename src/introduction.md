@@ -1,5 +1,0 @@
-# Introduction
-
----
-
-Hello from Silicon!
