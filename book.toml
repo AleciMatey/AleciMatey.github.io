@@ -13,7 +13,6 @@ smart-punctuation = true
 mathjax-support = true
 git-repository-url = "https://github.com/AleciMatey/AleciMatey.github.io/tree/master/books"
 edit-url-template = "https://github.com/AleciMatey/AleciMatey.github.io/edit/master/books/{path}"
-additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
 [output.html.print]
 enable = true
