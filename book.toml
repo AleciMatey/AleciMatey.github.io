@@ -11,8 +11,9 @@ title               = "AleciMatey's Blog"
 [output.html]
 smart-punctuation = true
 mathjax-support = true
-git-repository-url = "https://github.com/AleciMatey/AleciMatey.github.io/tree/master/books"
-edit-url-template = "https://github.com/AleciMatey/AleciMatey.github.io/edit/master/books/{path}"
+no-section-label = false
+git-repository-url = "https://github.com/AleciMatey/AleciMatey.github.io/tree/main/books"
+edit-url-template = "https://github.com/AleciMatey/AleciMatey.github.io/edit/main/books/{path}"
 
 [output.html.print]
 enable = true
