@@ -5,7 +5,7 @@
 authors             = ["Aleci Matey"]
 language            = "en"
 multilingual        = false
-src                 = "src"
+src                 = "books"
 title               = "AleciMatey's Blog"
 
 [output.html]
