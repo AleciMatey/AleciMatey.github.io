@@ -4,14 +4,12 @@
 [book]
 authors             = ["Aleci Matey"]
 language            = "en"
-multilingual        = false
 src                 = "books"
 title               = "AleciMatey's Blog"
 
 [output.html]
 smart-punctuation = true
 mathjax-support = true
-no-section-label = false
 git-repository-url = "https://github.com/AleciMatey"
 edit-url-template = "https://github.com/AleciMatey/AleciMatey.github.io/edit/main/{path}"
 
@@ -37,6 +35,3 @@ boost-hierarchy = 2
 boost-paragraph = 1
 expand = true
 heading-split-level = 2
-
-[preprocessor.mermaid]
-command = "mdbook-mermaid"
